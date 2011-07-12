@@ -44,6 +44,7 @@ public class CoffeeScriptSettings {
     }
 
     public void setBare(boolean bare) {
+        System.out.println("Test");
         getPreferences().put("bare", Boolean.toString(bare));
     }
 }
